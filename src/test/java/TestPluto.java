@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class TestPluto extends TestBase {
   @Test
-  public void testPluto() {
-    Assert.assertTrue(this.lines.stream().anyMatch(line -> line.matches("Pluto")));
+  public void testPlutoIsNotPresent() {
+    Assert.assertFalse(this.lines.stream().anyMatch(line -> line.matches("Pluto")));
   }
 }
