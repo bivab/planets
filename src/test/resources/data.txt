@@ -1,5 +1,5 @@
-Planets
-^^^^^^^
+Planets and Dwarf Planets
+^^^^^^^^^^^^^^^^^^^^^^^^^
 Mercury
 Venus
 Earth
